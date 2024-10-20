@@ -1,0 +1,19 @@
+.container{
+    height: 400px;
+    width: 1000px;
+    margin-left: 140px;
+    background-image: url(../pics/N1.jpg);
+    animation-name: myani;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes myani
+{
+    0% {background-image: url(../pics/N1.jpg)}
+    35% {background-image: url(../pics/N2.jpg)}
+    75% {background-image: url(../pics/N4.jfif)}
+
+}

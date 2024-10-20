@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    /* Styles for small devices (phones) */
+    .carousel-item img {
+        /* Adjust image size if necessary */
+        height: 200px; /* Example fixed height */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Styles for medium devices (tablets) */
+    .carousel-item img {
+        /* Adjust image size if necessary */
+        height: 300px; /* Example fixed height */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Styles for larger devices (desktops) */
+    .carousel-item img { width: 300vw; margin: 10px;
+        height: 400px; /* Example fixed height */
+    }
+}
+
+.service-box-v1 {
+    margin-bottom: 30px; /* Space between cards */
+}
+
+.service-cont {
+    text-align: center; /* Center align text */
+}
+
+
+
+@media (max-width: 576px) {
+    .service-cont h1 {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+    
+    .service-cont p {
+        font-size: 0.9em; /* Adjust paragraph font size */
+    }
+
+    .service-inner img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

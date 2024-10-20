@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>BandSaw Blades Gallery</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-decoration: solid;
+            font-weight: bolder;
+        }
+        .image-box {
+            margin-bottom: 15px; /* Space between rows */
+        }
+        .image-box img {
+            width: 100%; /* Make images responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .col-md-4 {
+                flex: 0 0 50%; /* 2 images per row */
+                max-width: 50%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .col-md-4 {
+                flex: 0 0 100%; /* 1 image per row */
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 style="background-color: blue;" class="text-center my-4">BandSaw Blades Gallery</h1>
+    <div class="row">
+        <div class="col-md-4 image-box">
+           
+            <img src="./images/bm1.jpg" alt="Image 1" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+        <div class="col-md-4 image-box">
+            
+            <img style="height: 90%;" src="images/bm2.jpg" alt="Image 2" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+        <div class="col-md-4 image-box">
+            
+            <img style="height: 90%;" src="images/bm3 lenox.jpg" alt="Image 3" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 image-box">
+            <img src="images/bm4.jpg" alt="Image 4" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+        <div class="col-md-4 image-box">
+            <img src="images/bm2.jpg" alt="Image 5" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+        <div class="col-md-4 image-box">
+            <img src="images/bm2.jpg" alt="Image 6" class="img-responsive">
+            <p>Bimetal Blades</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
